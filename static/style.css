@@ -1,7 +1,7 @@
 /* Main container */
 .main {
-    background-color: #343541;
-    color: white;
+    background-color: #ffffff;
+    color: #333333;
 }
 
 /* Chat container */
@@ -11,13 +11,13 @@
     display: flex;
     align-items: flex-start;
     gap: 1rem;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .chat-message.user {
-    background-color: #343541;
+    background-color: #ffffff;
 }
 .chat-message.assistant {
-    background-color: #444654;
+    background-color: #f7f7f8;
 }
 .chat-message .avatar {
     width: 30px;
@@ -31,7 +31,7 @@
 
 /* Sidebar styles */
 .sidebar .sidebar-content {
-    background-color: #202123;
+    background-color: #f7f7f8;
 }
 .sidebar-icon {
     width: 24px;
@@ -52,20 +52,20 @@
     left: 0;
     right: 0;
     padding: 1rem;
-    background: #343541;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    background: #ffffff;
+    border-top: 1px solid rgba(0,0,0,0.1);
 }
 .stTextInput > div > div > input {
-    background-color: #40414f;
-    border: 1px solid rgba(255,255,255,0.2);
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.2);
     border-radius: 0.5rem;
     padding: 0.75rem 1rem;
-    color: white;
+    color: #333333;
 }
 
 /* File uploader */
 .uploadFile {
-    border: 1px dashed rgba(255,255,255,0.2);
+    border: 1px dashed rgba(0,0,0,0.2);
     border-radius: 0.5rem;
     padding: 1rem;
     margin-bottom: 1rem;
